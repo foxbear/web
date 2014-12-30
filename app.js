@@ -12,10 +12,8 @@ app.use( express.static(__dirname + '/client') )
 
 app.get('/', function (req, res) {
   res.render('carousel', { 
-    // pathToAssets : __dirname + '/client/bower_components/bootstrap', 
-    // pathToSelectedTemplateWithinBootstrap :  __dirname + '/client/stylesheets'
     pathToAssets :  '/bower_components/bootstrap', 
-    pathToImages : '/img'
+    pathToImages : '/img',
     pathToSelectedTemplateWithinBootstrap : '/stylesheets'
     }
   )
