@@ -65,7 +65,19 @@ html(lang='en')
     
     // Marketing messaging and featurettes
     // ==================================================
-    include ./marketing.jade
+    // Wrap the rest of the page in another container to center all the content.
+    .container.marketing
+      include ./marketing.jade
+      // FOOTER
+      footer
+        p.pull-right
+          a(href='#') Back to top
+        p
+          | &copy; 2014 Company, Inc. &middot; 
+          a(href='#') Privacy
+          |  &middot; 
+          a(href='#') Terms
+    // /.container
     
     // Bootstrap core JavaScript
     // ==================================================

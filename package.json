@@ -5,7 +5,6 @@
   "dependencies": {
     "express": "*",
     "jade": "*",
-    "yamljs": "*",
-    "morgan": "*"
+    "yamljs": "*"
   }
 }

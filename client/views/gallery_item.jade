@@ -1,0 +1,10 @@
+img(src=item.path, alt='First slide')
+.container
+  .carousel-caption
+    h1 #{item.caption}
+    p
+      | Note: If you&apos;re viewing this page via a 
+      code file://
+      |  URL, the &quot;next&quot; and &quot;previous&quot; Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.
+    p
+      a.btn.btn-lg.btn-primary(href=item.href, role='button') #{item.button_label}
