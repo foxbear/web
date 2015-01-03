@@ -10,7 +10,7 @@
              },
              production: {
                  options: {
-                     paths: ["assets/css"],
+                     paths: ["client/stylesheets"],
                      cleancss: true
                  },
                  files: {"client/stylesheets/bootstrap_theme.css": "client/stylesheets/bootstrap_theme.less"}
