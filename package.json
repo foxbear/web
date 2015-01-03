@@ -5,6 +5,8 @@
   "dependencies": {
     "express": "*",
     "jade": "*",
-    "yamljs": "*"
+    "yamljs": "*",
+    "grunt": "*",
+    "grunt-contrib-less": "*"
   }
 }
