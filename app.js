@@ -19,8 +19,8 @@ function load_yaml ( file ) {
 
 app.get('/', function (req, res) {
   res.render('carousel', { 
-    projectData : load_yaml( 'info.yml' ),
-    imageData : load_yaml( 'client/content/img/img.yml' ),
+    general : load_yaml( 'client/content/general.yml' ),
+    projects : load_yaml( 'client/content/projects.yml' ),
     pathToAssets :  '/bower_components/bootstrap', 
     pathToImages : '/content/img',
     pathToSelectedTemplateWithinBootstrap : '/stylesheets'

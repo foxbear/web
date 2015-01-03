@@ -1,11 +1,12 @@
 #myCarousel.carousel.slide(data-ride='carousel')
     // Indicators
+    // TODO: Also generate carousel-indicators with a for loop
     ol.carousel-indicators
       li.active(data-target='#myCarousel', data-slide-to='0')
       li(data-target='#myCarousel', data-slide-to='1')
       li(data-target='#myCarousel', data-slide-to='2')
     .carousel-inner
-      each item, index in imageData.gallery_images
+      each item, index in general.gallery
         if index == 0
           .item.active
             include ./gallery_item.jade

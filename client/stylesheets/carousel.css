@@ -7,17 +7,41 @@ body {
   color: #5a5a5a;
 }
 
-
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
+/* TODO: FIXME: Should not be overriding css file. Edit the LESS file and override relevant LESS variables for colors etc... */
 .navbar-wrapper {
-  position: relative;
   z-index: 15;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  transform: translate( -50% , 0 );
 }
 
+.navbar-wrapper .container {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.navbar-static-top {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+  background-color: rgba(249, 38, 114, 0.75) 
+}
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:hover, 
+.navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: rgba(249, 38, 114, 0.75) 
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -36,15 +60,15 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 960px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  height: 500px;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -99,10 +123,6 @@ body {
     padding-right: 0;
   }
 
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
     border-radius: 4px;
