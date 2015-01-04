@@ -1,0 +1,1 @@
+export ROOT=~/06_foxbear/web

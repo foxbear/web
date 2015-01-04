@@ -17,8 +17,8 @@ function load_yaml ( file ) {
   return yaml
 }
 
-app.get('/', function (req, res) {
-  res.render('carousel', { 
+function render( req, res , template ){
+  res.render( template, { 
     general : load_yaml( 'client/content/general.yml' ),
     projects : load_yaml( 'client/content/projects.yml' ),
     pathToAssets :  '/bower_components/bootstrap', 
@@ -26,6 +26,22 @@ app.get('/', function (req, res) {
     pathToSelectedTemplateWithinBootstrap : '/stylesheets'
     }
   )
+}
+
+app.get('/', function (req, res) {
+  render( req, res, 'index' )
+})
+
+app.get('/projects', function (req, res) {
+   render( req, res, 'projects' )
+})
+
+app.get('/about', function (req, res) {
+   render( req, res, 'about' )
+})
+
+app.get('/contact', function (req, res) {
+   render( req, res, 'contact' )
 })
 
 app.listen(3000)
