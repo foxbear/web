@@ -7,7 +7,7 @@ gallery :
     text: |
       We offer full stack web development, UI UX design, and graphic design services.
     button_label: Show Me!
-    button_href: #services
+    button_href: /projects
   -
     caption: We are awesome
     img_path: content/img/yos_b.jpg
@@ -15,7 +15,7 @@ gallery :
       We have a wide range of expertise that allows us 
       to take advantage of the best tools and best practices of many disciplines.
     button_label: Tell me more!
-    button_href:  #about
+    button_href:  /projects
   -
     caption: You will not regret it.
     img_path: content/img/yos_c.jpg
@@ -23,7 +23,7 @@ gallery :
       We are involved throughout the entire lifecycle of a project,
       from conception to deployment and maintenance.
     button_label: Oh Yeah?
-    button_href: #services
+    button_href: /projects
     
 services:
   - 

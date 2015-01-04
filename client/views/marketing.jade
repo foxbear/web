@@ -1,26 +1,27 @@
-// START THE FEATURETTES
-// FIXME: TODO: Use markdown so that newlines are correctly interpreted OR replace newlines w/ linebreaks
-hr.featurette-divider
-each item, index in general.services
-  if index%2 == 0
-    .row.featurette
-      .col-md-7
-        h2.featurette-heading
-          | #{item.heading}
-        p.lead
-          | #{item.text}
-      .col-md-5
-        img.featurette-image.img-responsive(data-src='holder.js/500x500/auto', alt='Generic placeholder image')
-    hr.featurette-divider
-  else
-    .row.featurette
-      .col-md-5
-        img.featurette-image.img-responsive(data-src='holder.js/500x500/auto', alt='Generic placeholder image')
-      .col-md-7
-        h2.featurette-heading
-          | #{item.heading}
-        p.lead
-          | #{item.text}
-    hr.featurette-divider
-  end
-// /END THE FEATURETTES
+.container.marketing
+  // START THE FEATURETTES
+  // FIXME: TODO: Use markdown so that newlines are correctly interpreted OR replace newlines w/ linebreaks
+  hr.featurette-divider
+  each item, index in general.services
+    if index%2 == 0
+      .row.featurette
+        .col-md-7
+          h2.featurette-heading
+            | #{item.heading}
+          p.lead
+            | #{item.text}
+        .col-md-5
+          img.featurette-image.img-responsive(data-src='holder.js/500x500/auto', alt='Generic placeholder image')
+      hr.featurette-divider
+    else
+      .row.featurette
+        .col-md-5
+          img.featurette-image.img-responsive(data-src='holder.js/500x500/auto', alt='Generic placeholder image')
+        .col-md-7
+          h2.featurette-heading
+            | #{item.heading}
+          p.lead
+            | #{item.text}
+      hr.featurette-divider
+    end
+  // /END THE FEATURETTES

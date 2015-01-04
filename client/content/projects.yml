@@ -1,13 +1,55 @@
-webdev :
-  - FlowsBits
-  - Secret Scoop
-  - A Portfolio
-  - J Portfolio
-
-graphic :
-  - Boards
-  - Posters
-  - Phree Loo
+-
+  heading: Web Development / UI UX
+  name: webdev
+  projects:
+    - 
+      heading: FlowsBits
+      text: |
+        As part of the 2014 SmartGeometry conference in Hong Kong, we completed
+        a prototype for visualizing social data streams in an urban context.
+      img_path: 
+    - 
+      heading: Secret Scoop
+      text: |
+        This gelato company chose us to develop their web presence and branding.
+      img_path: 
+    - 
+      heading: Anastasia's Portfolio
+      text: |
+        A portfolio of Anastasia's student and professional work.
+      img_path: 
+    - 
+      heading: John's Portfolio
+      text: |
+        A portfolio of John's student and professional work.
+      img_path: 
+-
+  heading: Graphic Design
+  name: graphic
+  projects:
+    - 
+      heading: FoxBear Boards
+      text: |
+        A selection designed skateboard decks.
+      img_path: 
+    - 
+      heading: FoxBear Posters
+      text: |
+        A selection of some of our best graphic design, available on printed media.
+      img_path: 
+    - 
+      heading: Phree Loo
+      text: |
+        FoxBear worked with a research team at Lawrence Berkeley Labs to establish 
+        their branding and to consult on the design of the prototype.
+      img_path: 
   
-dataviz :
-
+-
+  heading: Data Visualization
+  name: dataviz
+  projects:
+    - 
+      heading: Something old...
+      text: |
+        Oooooooooooh
+      img_path: 
