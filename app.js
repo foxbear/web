@@ -19,8 +19,8 @@ function load_yaml ( file ) {
 
 function render( req, res , template ){
   res.render( template, { 
-    general : load_yaml( 'client/content/general.yml' ),
-    projects : load_yaml( 'client/content/projects.yml' ),
+    general : load_yaml( __dirname +'/client/content/general.yml' ),
+    projects : load_yaml( __dirname +'/client/content/projects.yml' ),
     pathToAssets :  '/bower_components/bootstrap', 
     pathToImages : '/content/img',
     pathToSelectedTemplateWithinBootstrap : '/stylesheets'
