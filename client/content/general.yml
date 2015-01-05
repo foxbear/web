@@ -7,15 +7,14 @@ gallery :
     text: |
       We offer full stack web development, UI UX design, and graphic design services.
     button_label: Show Me!
-    button_href: /projects
+    button_href: /#info
   -
     caption: We are awesome
     img_path: content/img/yos_b.jpg
     text: |
-      We have a wide range of expertise that allows us 
-      to take advantage of the best tools and best practices of many disciplines.
+      We have a wide range of expertise that allows us to take advantage of the best tools and best practices of many disciplines.
     button_label: Tell me more!
-    button_href:  /projects
+    button_href:  /about
   -
     caption: You will not regret it.
     img_path: content/img/yos_c.jpg
@@ -28,11 +27,12 @@ gallery :
 services:
   - 
     heading: Web Development / UI UX:
+    name: webdev
     content: webdev
-    img_path: 
+    img_path: content/img/jportfolio.gif
     text: |
-      We offer full stack web development and user experience and user interface design services.
-      We have experience implementing various popular languages, web frameworks, and tools to suit your needs, including 
+      We offer full stack web development and user experience and user interface design services. We have experience implementing various popular languages, web frameworks, and tools to suit your needs, including 
+      
         - NodeJS
         - Python ( Django + Flask )
         - Ruby ( Sinatra )
@@ -45,29 +45,34 @@ services:
     button_href: #webdev
   - 
     heading: Graphic Design
+    name: graphic
     content: graphic
-    img_path: 
+    img_path: content/img/graphic_a.jpg
     text: |
-      We can produce powerful, memorable graphics and develop or evolve the branding for your product.
-      We have worked on a broad catalogue of designed objects, logos, and graphic products.
+      We can produce powerful, memorable graphics and develop or evolve the branding for your product. We have worked on a broad catalogue of designed objects, logos, and graphic products.
     button_label: Show me!
     button_href:  #graphic
   - 
     heading: Data Visualization
+    name: dataviz
     content: dataviz
     img_path: 
     text: |
-      We are constantly exploring new and innovative techniques for visualizing data. 
-      We have specific expertise in visualizing health and environmental data. 
+      We are constantly exploring new and innovative techniques for visualizing healthcare and environmental data. 
     button_label: Oooooh!
     button_href: #dataviz
     
-about : |
-  This is a block of text
-  where each line break is significant.
-  What else should it say?
-  
+about :
+  -
+    heading: Anastasia Victor-Faichney
+    img_path: content/img/about_a.jpg
+    text: |
+      She is so cool
+  -
+    heading: John Victor-Faichney
+    img_path: content/img/about_j.jpg
+    text: | 
+      What a lame-wad
+      
 contact : |
-  This is a block of text
-  where each line break is significant.
-  What else should it say?
+  hello@foxbear.com

@@ -1,6 +1,7 @@
 *.log
 *.png
 *.jpg
+*.gif
 
 node_modules
 

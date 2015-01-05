@@ -1,27 +1,27 @@
-.container.marketing
+.container.marketing(id='info')
   // START THE FEATURETTES
   // FIXME: TODO: Use markdown so that newlines are correctly interpreted OR replace newlines w/ linebreaks
   hr.featurette-divider
   each item, index in general.services
     if index%2 == 0
-      .row.featurette
+      .row.featurette(id=item.name)
         .col-md-7
           h2.featurette-heading
             | #{item.heading}
           p.lead
-            | #{item.text}
+            | !{item.text.replace(/\n/g, '<br/>')}
         .col-md-5
-          img.featurette-image.img-responsive(data-src='holder.js/500x500/auto', alt='Generic placeholder image')
+          img.featurette-image.img-responsive(src=item.img_path, alt='Generic placeholder image')
       hr.featurette-divider
     else
-      .row.featurette
+      .row.featurette(id=item.name)
         .col-md-5
-          img.featurette-image.img-responsive(data-src='holder.js/500x500/auto', alt='Generic placeholder image')
+          img.featurette-image.img-responsive(src=item.img_path, alt='Generic placeholder image')
         .col-md-7
           h2.featurette-heading
             | #{item.heading}
           p.lead
-            | #{item.text}
+            | !{item.text.replace(/\n/g, '<br/>')}
       hr.featurette-divider
     end
   // /END THE FEATURETTES

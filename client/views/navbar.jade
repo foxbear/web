@@ -17,37 +17,22 @@
               a.dropdown-toggle(href='#', data-toggle='dropdown')
                 | Services 
                 span.caret
-              ul.dropdown-menu(role='menu')
-                li
-                  a(href='#') Action
-                li
-                  a(href='#') Another action
-                li
-                  a(href='#') Something else here
-                li.divider
-                li.dropdown-header Nav header
-                li
-                  a(href='#') Separated link
-                li
-                  a(href='#') One more separated link
+              ul.dropdown-menu(role='menu') 
+                each service in general.services
+                  li
+                    a(href='./#'+service.name) #{service.heading}
             li.dropdown
               a.dropdown-toggle(href='#', data-toggle='dropdown')
                 | Projects 
                 span.caret
               ul.dropdown-menu(role='menu')
-                li
-                  a(href='#') Action
-                li
-                  a(href='#') Another action
-                li
-                  a(href='#') Something else here
-                li.divider
-                li.dropdown-header Nav header
-                li
-                  a(href='#') Separated link
-                li
-                  a(href='#') One more separated link
+                each category in projects
+                  li.divider
+                  li.dropdown-header #{category.heading}
+                    each project in category.projects
+                      li
+                        a(href='./projects#'+project.name) #{project.heading}
             li
-              a(href='#about') About
+              a(href='about') About
             li
-              a(href='#contact') Contact
+              a(href='contact') Contact

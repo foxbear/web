@@ -4,45 +4,50 @@
   projects:
     - 
       heading: FlowsBits
+      name: flowsbits
       text: |
-        As part of the 2014 SmartGeometry conference in Hong Kong, we completed
-        a prototype for visualizing social data streams in an urban context.
-      img_path: 
+        As part of the 2014 SmartGeometry conference in Hong Kong, we completed a prototype for visualizing social data streams in an urban context.
+      img_path: content/img/flowsbits_1.png
     - 
       heading: Secret Scoop
+      name: secretscoop
       text: |
         This gelato company chose us to develop their web presence and branding.
       img_path: 
     - 
       heading: Anastasia's Portfolio
+      name: aportfolio
       text: |
         A portfolio of Anastasia's student and professional work.
-      img_path: 
+      img_path: content/img/about_a.jpg
     - 
       heading: John's Portfolio
+      name: jportfolio
       text: |
         A portfolio of John's student and professional work.
-      img_path: 
+      img_path: content/img/jportfolio.gif
 -
   heading: Graphic Design
   name: graphic
   projects:
     - 
       heading: FoxBear Boards
+      name: boards
       text: |
         A selection designed skateboard decks.
-      img_path: 
+      img_path:  content/img/graphic_a.jpg
     - 
       heading: FoxBear Posters
+      name: posters
       text: |
         A selection of some of our best graphic design, available on printed media.
-      img_path: 
+      img_path: content/img/graphic_a.jpg
     - 
       heading: Phree Loo
+      name: phreeloo
       text: |
-        FoxBear worked with a research team at Lawrence Berkeley Labs to establish 
-        their branding and to consult on the design of the prototype.
-      img_path: 
+        FoxBear worked with a research team at Lawrence Berkeley Labs to establish their branding and to consult on the design of the prototype.
+      img_path: content/img/graphic_a.jpg
   
 -
   heading: Data Visualization
@@ -50,6 +55,7 @@
   projects:
     - 
       heading: Something old...
+      name: viz0
       text: |
         Oooooooooooh
-      img_path: 
+      img_path: content/img/graphic_a.jpg

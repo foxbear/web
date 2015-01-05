@@ -1,0 +1,16 @@
+extends layout.jade
+
+block content
+  .container
+    hr.featurette-divider
+    each item in general.about
+      .row.featurette
+        .col-md-7
+          h2.featurette-heading
+            | #{item.heading}
+          p.lead
+            | !{item.text.replace(/\n/g, '<br/>')}
+        .col-md-5
+          img.featurette-image.img-responsive(src=item.img_path, alt='Generic placeholder image')
+      hr.featurette-divider
+
