@@ -1,1 +1,1 @@
-export ROOT=~/06_foxbear/web
+export PATH=$PWD/bin/:$PATH
