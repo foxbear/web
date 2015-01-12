@@ -3,23 +3,23 @@ name : FoxBear
 gallery :
   - 
     caption: Hello.
-    img_path: content/img/splash_0.gif
+    img_path: content/img/splash_0_still.gif
     text: |
       We offer full stack web development, UI UX design, and graphic design services.
     button_label: Show Me!
     button_href: /#info
   -
-    caption: We are awesome
-    img_path: content/img/splash_1.gif
+    caption: Thanks for stopping by
+    img_path: content/img/splash_1_still.gif
     text: |
-      We have a wide range of expertise that allows us to take advantage of the best tools and best practices of many disciplines.
+      Take a look at some of our past projects and let us know if there is anything you're interested in.
     button_label: Tell me more!
-    button_href:  /about
+    button_href:  /projects
   -
     caption: You will not regret it.
-    img_path: content/img/splash_2.gif
+    img_path: content/img/splash_2_still.gif
     text: |
-      Drop us a line!
+      Maybe we can help you realize your ideas or breathe new life into old ones.
     button_label: Contact Us
     button_href: /contact
     
@@ -30,7 +30,7 @@ services:
     content: webdev
     img_path: content/img/hand-02.gif
     text: |
-      We offer full stack web development and user experience and user interface design services. We have experience implementing various popular languages, web frameworks, and tools to suit your needs, including 
+      We offer full stack web development and UI UX design services. We have experience implementing various popular languages, web frameworks, and tools to suit various client's needs, including 
       
         - NodeJS
         - Python ( Django + Flask )
@@ -40,17 +40,17 @@ services:
         - AngularJS
         - WebGL
         - D3
-    button_label: Tell me more!
-    button_href: #webdev
+    button_label: Take me!
+    button_href: /projects#webdev
   - 
     heading: Graphic Design
     name: graphic
     content: graphic
     img_path: content/img/po_01.gif
     text: |
-      We can produce powerful, memorable graphics and develop or evolve the branding for your product. We have worked on a broad catalogue of designed objects, logos, and graphic for commercial clients and institutions.
+      We can produce powerful, memorable graphics and develop or evolve the branding for your product. We have worked on a broad catalogue of designed objects, logos, and graphics for commercial clients and institutions.
     button_label: Show me!
-    button_href:  #graphic
+    button_href:  /projects#graphic
   - 
     heading: Data Visualization
     name: dataviz
@@ -59,7 +59,7 @@ services:
     text: |
       We are constantly exploring new and innovative techniques for visualizing healthcare, urban, and environmental data. 
     button_label: Oooooh!
-    button_href: #dataviz
+    button_href: /projects#dataviz
     
 about :
   -

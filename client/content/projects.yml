@@ -6,8 +6,11 @@
       heading: Secret Scoop
       name: secretscoop
       text: |
-        This Thai gelato company chose us to develop their mobile friendly web site.
-      img_path: content/img/hand-02.gif
+        This Thai gelato company chose us to develop their mobile friendly web site. 
+        
+        Check them out!
+      imgs:  
+        - content/img/hand-02.gif
 -
   heading: Graphic Design
   name: graphic
@@ -17,19 +20,25 @@
       name: boards
       text: |
         A selection of skateboard decks we've designed.
-      img_path:  content/img/Zane_Skateboard-02.gif
+      imgs:  
+        - content/img/Zane_Skateboard-02.gif
+        - content/img/Craig_Skateboard-02-01.gif
     - 
       heading: Posters
       name: posters
       text: |
-        A selection of some of our best graphic design, available on printed media.
-      img_path: content/img/po_01.gif
+        A selection of some of our graphic design, available on printed media.
+      imgs:  
+        - content/img/po_01.gif
     - 
       heading: Phree Loo
       name: phreeloo
       text: |
         FoxBear worked with a research team at Lawrence Berkeley Labs to establish their branding and to consult on the design of this prototype for a waterless toilet.
-      img_path: content/img/pl_05.gif
+        
+         <a href="http://engineering.berkeley.edu/magazine/fall-2012/new-loo">BerkeleyENGINEER</a>
+      imgs:  
+        - content/img/pl_05.gif
   
 -
   heading: Data Visualization
@@ -40,4 +49,7 @@
       name: flowsbits
       text: |
         As part of the 2014 SmartGeometry conference in Hong Kong, we worked with a talented group of developers to create a prototype for visualizing social data streams in an urban context.
-      img_path: content/img/flowsbits_0.gif
+        
+        <a href="https://github.com/FlowsBitsRelationships/sg2014-visualize">On Github</a>
+      imgs:  
+        - content/img/flowsbits_0.gif

@@ -6,7 +6,7 @@ block content
     each category in projects
       
       // START THE PROJECTS
-      h1 #{category.heading}
+      h1.category-heading(id = category.name) #{category.heading}
       hr.featurette-divider
       each item, index in category.projects
         if index%2 == 0
@@ -17,12 +17,14 @@ block content
               p.lead
                 | !{item.text.replace(/\n/g, '<br/>')}
             .col-md-5
-              img.featurette-image.img-responsive(src=item.img_path, alt='Generic placeholder image')
+              each image in item.imgs
+                img.featurette-image.img-responsive(src=image, alt='Generic placeholder image')
           hr.featurette-divider
         else
           .row.featurette(id=item.name)
             .col-md-5
-              img.featurette-image.img-responsive(src=item.img_path, alt='Generic placeholder image')
+              each image in item.imgs
+                img.featurette-image.img-responsive(src=image, alt='Generic placeholder image')
             .col-md-7
               h2.featurette-heading
                 | #{item.heading}

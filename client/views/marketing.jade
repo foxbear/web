@@ -10,6 +10,8 @@
             | #{item.heading}
           p.lead
             | !{item.text.replace(/\n/g, '<br/>')}
+          p
+            a.btn.btn-lg.btn-primary(href=item.button_href, role='button') #{item.button_label}
         .col-md-5
           img.featurette-image.img-responsive(src=item.img_path, alt='Generic placeholder image')
       hr.featurette-divider
@@ -22,6 +24,8 @@
             | #{item.heading}
           p.lead
             | !{item.text.replace(/\n/g, '<br/>')}
+          p
+            a.btn.btn-lg.btn-primary(href=item.button_href, role='button') #{item.button_label}
       hr.featurette-divider
     end
   // /END THE FEATURETTES
