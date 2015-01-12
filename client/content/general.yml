@@ -3,33 +3,32 @@ name : FoxBear
 gallery :
   - 
     caption: Hello.
-    img_path: content/img/yos_a.jpg
+    img_path: content/img/splash_0.gif
     text: |
       We offer full stack web development, UI UX design, and graphic design services.
     button_label: Show Me!
     button_href: /#info
   -
     caption: We are awesome
-    img_path: content/img/yos_b.jpg
+    img_path: content/img/splash_1.gif
     text: |
       We have a wide range of expertise that allows us to take advantage of the best tools and best practices of many disciplines.
     button_label: Tell me more!
     button_href:  /about
   -
     caption: You will not regret it.
-    img_path: content/img/yos_c.jpg
+    img_path: content/img/splash_2.gif
     text: |
-      We are involved throughout the entire lifecycle of a project,
-      from conception to deployment and maintenance.
-    button_label: Oh Yeah?
-    button_href: /projects
+      Drop us a line!
+    button_label: Contact Us
+    button_href: /contact
     
 services:
   - 
     heading: Web Development / UI UX:
     name: webdev
     content: webdev
-    img_path: content/img/jportfolio.gif
+    img_path: content/img/hand-02.gif
     text: |
       We offer full stack web development and user experience and user interface design services. We have experience implementing various popular languages, web frameworks, and tools to suit your needs, including 
       
@@ -47,32 +46,32 @@ services:
     heading: Graphic Design
     name: graphic
     content: graphic
-    img_path: content/img/graphic_a.jpg
+    img_path: content/img/po_01.gif
     text: |
-      We can produce powerful, memorable graphics and develop or evolve the branding for your product. We have worked on a broad catalogue of designed objects, logos, and graphic products.
+      We can produce powerful, memorable graphics and develop or evolve the branding for your product. We have worked on a broad catalogue of designed objects, logos, and graphic for commercial clients and institutions.
     button_label: Show me!
     button_href:  #graphic
   - 
     heading: Data Visualization
     name: dataviz
     content: dataviz
-    img_path: 
+    img_path:  content/img/flowsbits_0.gif
     text: |
-      We are constantly exploring new and innovative techniques for visualizing healthcare and environmental data. 
+      We are constantly exploring new and innovative techniques for visualizing healthcare, urban, and environmental data. 
     button_label: Oooooh!
     button_href: #dataviz
     
 about :
   -
     heading: Anastasia Victor-Faichney
-    img_path: content/img/about_a.jpg
+    img_path: content/img/about_a.gif
     text: |
-      She is so cool
+      Anastasia is an architect, designer, and web developer who lives in San Francisco, US. She received a Bachelor of Landscape Architecture from the University of Melbourne, where she was awarded a government scholarship, and an M. Arch from the University of California, Berkeley.
   -
     heading: John Victor-Faichney
-    img_path: content/img/about_j.jpg
+    img_path: content/img/about_j.gif
     text: | 
-      What a lame-wad
+      John is an architect, designer, educator, and software developer who lives in San Francisco, US. He received a Bachelor of Science in Architecture from the University of Florida, where he was awarded a full tuition National Merit Scholarship, and an M. Arch from the University of California, Berkeley.
       
 contact : |
   hello@foxbear.com

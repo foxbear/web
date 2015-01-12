@@ -6345,6 +6345,12 @@ body {
   top: 0;
   left: 0;
 }
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-control.right {
+  background-image: none;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 /* Pad the edges of the mobile views a bit */
@@ -6375,6 +6381,9 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+.featurette-image {
+  padding-top: 28%;
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */

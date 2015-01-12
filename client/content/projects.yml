@@ -3,59 +3,41 @@
   name: webdev
   projects:
     - 
-      heading: FlowsBits
-      name: flowsbits
-      text: |
-        As part of the 2014 SmartGeometry conference in Hong Kong, we completed a prototype for visualizing social data streams in an urban context.
-      img_path: content/img/flowsbits_1.png
-    - 
       heading: Secret Scoop
       name: secretscoop
       text: |
-        This gelato company chose us to develop their web presence and branding.
-      img_path: 
-    - 
-      heading: Anastasia's Portfolio
-      name: aportfolio
-      text: |
-        A portfolio of Anastasia's student and professional work.
-      img_path: content/img/about_a.jpg
-    - 
-      heading: John's Portfolio
-      name: jportfolio
-      text: |
-        A portfolio of John's student and professional work.
-      img_path: content/img/jportfolio.gif
+        This Thai gelato company chose us to develop their mobile friendly web site.
+      img_path: content/img/hand-02.gif
 -
   heading: Graphic Design
   name: graphic
   projects:
     - 
-      heading: FoxBear Boards
+      heading: Boards
       name: boards
       text: |
-        A selection designed skateboard decks.
-      img_path:  content/img/graphic_a.jpg
+        A selection of skateboard decks we've designed.
+      img_path:  content/img/Zane_Skateboard-02.gif
     - 
-      heading: FoxBear Posters
+      heading: Posters
       name: posters
       text: |
         A selection of some of our best graphic design, available on printed media.
-      img_path: content/img/graphic_a.jpg
+      img_path: content/img/po_01.gif
     - 
       heading: Phree Loo
       name: phreeloo
       text: |
-        FoxBear worked with a research team at Lawrence Berkeley Labs to establish their branding and to consult on the design of the prototype.
-      img_path: content/img/graphic_a.jpg
+        FoxBear worked with a research team at Lawrence Berkeley Labs to establish their branding and to consult on the design of this prototype for a waterless toilet.
+      img_path: content/img/pl_05.gif
   
 -
   heading: Data Visualization
   name: dataviz
   projects:
     - 
-      heading: Something old...
-      name: viz0
+      heading: FlowsBits
+      name: flowsbits
       text: |
-        Oooooooooooh
-      img_path: content/img/graphic_a.jpg
+        As part of the 2014 SmartGeometry conference in Hong Kong, we worked with a talented group of developers to create a prototype for visualizing social data streams in an urban context.
+      img_path: content/img/flowsbits_0.gif
