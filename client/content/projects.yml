@@ -19,7 +19,7 @@
       heading: Boards
       name: boards
       text: |
-        A selection of skateboard decks we've designed.
+        A selection of skateboard decks designed to increase one's sense of awesomeness.
       imgs:  
         - content/img/Zane_Skateboard-02.gif
         - content/img/Craig_Skateboard-02-01.gif
