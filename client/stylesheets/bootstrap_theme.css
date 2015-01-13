@@ -6340,6 +6340,11 @@ h1.category-heading {
 .carousel-inner > .item > img {
   width: 100%;
   height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 .carousel-control.left {
   background-image: linear-gradient(to right, #ffffff 40%, rgba(0, 0, 0, 0.0001));
